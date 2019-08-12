@@ -1,0 +1,23 @@
+{
+  "name": "semantic-release-monorepoed",
+  "version": "1.0.0",
+  "description": "Semantic release package with injected code to work on monorepos",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "prettier": "prettier -c **/*.js",
+    "prettier:fix": "prettier --write **/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "semantic-release": "^15.10.0",
+    "mock-require": "^3.0.3",
+    "ramda": "^0.26.1",
+    "pkg-up": "^3.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.0"
+  }
+}
